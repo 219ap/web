@@ -1,0 +1,18 @@
+/* WIX */
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+
+:root {
+  --text-color: white;
+  --color-accent: #77ff77;
+  --link-color-hover: #77ff77;
+  --text-family: 'Wix Madefor Text', sans-serif;
+}
+
+body {
+  background-color: #0b0b0b;
+}
+
+.container {
+  max-width: 1420px;
+  width: 100%;
+}

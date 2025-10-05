@@ -1,0 +1,68 @@
+.price {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 240px;
+}
+
+.price__container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1420px;
+  width: 100%;
+}
+
+.price__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 675px;
+}
+
+.price__right {
+  width: 580px;
+}
+
+.price__description {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.price__image {
+  margin-bottom: 10px;
+}
+
+.price__text {
+  font-family: var(--text-family);
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.6);
+
+  margin: 0;
+}
+
+.price__type {
+  margin: 0;
+  margin-bottom: 10px;
+
+  font-family: var(--text-family);
+  font-size: 38px;
+  font-weight: bold;
+
+  color: var(--text-color);
+}
+
+.price__type--opacity {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.price__total {
+  margin: 0;
+  margin-top: 64px;
+
+  font-family: var(--text-family);
+  font-weight: bold;
+  font-size: 38px;
+  color: var(--color-accent);
+}

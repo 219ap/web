@@ -1,0 +1,40 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 170px 0;
+
+  margin-bottom: 200px;
+}
+
+.services__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  max-width: 700px;
+}
+
+.services__title {
+  margin: 0;
+  margin-bottom: 30px;
+
+  font-family: var(--text-family);
+  color: var(--text-color);
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.services__text {
+  margin: 0;
+  margin-bottom: 60px;
+
+  color: #ffffff60;
+
+  font-family: var(--text-family);
+  font-size: 24px;
+  font-weight: 600;
+
+  text-align: center;
+}

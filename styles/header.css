@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 257px;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.header__image {
+  max-height: 66px;
+  margin-right: 26px; /* Внешний отступ справа */
+  transition: 0.6s;
+}
+
+.header__image:hover {
+  transform: rotate(360deg);
+}
+
+.header__list {
+  display: flex;
+  gap: 0 26px;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__link {
+  color: var(--text-color);
+  text-decoration: none; /* Убираем подчеркивание */
+
+  font-family: var(--text-family);
+  font-weight: 600;
+  font-size: 24px; /* Размер текста */
+}
+
+.header__link--active {
+  border-bottom: 3px solid #77ff77;
+}
+
+.header__link:hover {
+  color: var(--link-color-hover);
+}

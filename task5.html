@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/styles/index.css" />
+  <link rel="stylesheet" href="./assets/styles/header.css" />
+  <link rel="stylesheet" href="./assets/styles/hero.css" />
+  <link rel="stylesheet" href="./assets/styles/services.css" />
+  <link rel="stylesheet" href="./assets/styles/info.css" />
+  <link rel="stylesheet" href="./assets/styles/stages.css" />
+  <link rel="stylesheet" href="./assets/styles/price.css" />
+  <link rel="stylesheet" href="./assets/styles/form.css" />
+  <link rel="stylesheet" href="./assets/styles/footer.css" />
+  <title>Мой первый сайт</title>
+  <link rel="stylesheet" href="index.html">
+</head>
+
+<body>
+  <a href="index.html">На главную</a>
+
+  <header class="header">
+    <div class="header__container container">
+      <img class="header__image" src="./assets/images/logo.svg" alt="" />
+
+      <nav class="header__menu">
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="/about">О компании</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="/services">Услуги</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="/projects">Проекты</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="/contacts">Контакты</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link header__link--active" href="/order">Заказать</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div class="hero__container">
+        <h1 class="hero__title">Приложения для e-commerce и прочего другого</h1>
+        <p class="hero__text">
+          Ведущая студия мобильной разработки с широким спектром услуг. Команда экспертов создаст
+          высококачественные приложения, оптимизированные под ваши потребности.
+        </p>
+        <button class="hero__button">Заказать консультацию</button>
+      </div>
+    </section>
+
+    <section class="services">
+      <!-- Убрали блок с классом services__container, потому что он лишний -->
+      <!-- <div class="services__container"> -->
+
+      <div class="services__block">
+        <h2 class="services__title">Разработка с нуля</h2>
+        <p class="services__text">
+          Полный цикл работ по разработке кроссплатформенного мобильного приложения. От аналитики и
+          проектирования до публикации, поддержки и развития.
+        </p>
+        <img class="services__image" src="./assets/images/service1.svg" alt="" />
+      </div>
+
+      <div class="services__block">
+        <h2 class="services__title">Перенос на кросс-платформу</h2>
+        <p class="services__text">
+          Перенесем ваше iOS/Android приложение на кросс-платформу и сократим стоимость разработки и поддержки на
+          40%
+        </p>
+        <img class="services__image" src="./assets/images/service2.svg" alt="" />
+      </div>
+
+      <div class="services__block">
+        <h2 class="services__title">Доработка продукта</h2>
+        <p class="services__text">
+          Проанализируем текущее состояние проекта, предложим пути решения и доработаем его до нужного результата
+        </p>
+        <img class="services__image" src="./assets/images/service3.svg" alt="" />
+      </div>
+
+      <!-- </div> -->
+    </section>
+
+    <section class="info">
+      <div class="info__container">
+        <div class="info__block">
+          <h2 class="info__title">Пишем на</h2>
+          <p class="info__text">
+            <span class="info__span">Java</span> - позволяет создавать мобильные приложения с высокой
+            отзывчивостью. <span class="info__span">Dart</span> - предназначен для создания
+            высокопроизводительных приложений.
+          </p>
+        </div>
+
+        <div class="info__block">
+          <h2 class="info__title">Используем фреймворки</h2>
+          <p class="info__text">
+            <span class="info__span">FireBase</span> - аутентификация, облачные хранилища данных, уведомления и
+            пр. <span class="info__span">Flutter</span> - создает высококачественные пользовательские интерфейсы.
+          </p>
+        </div>
+
+        <div class="info__block">
+          <h2 class="info__title">Получаем результат</h2>
+          <p class="info__text">
+            Интуитивный пользовательский интерфейс, надежность, стабильность, высокая производительность,
+            кросс-платформенная совместимость, безопасность.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="stages">
+      <div class="stages__container">
+        <div class="stages__block stages__block--decorated">
+          <img class="stages__image" src="./assets/images/stage1.svg" alt="Этап 1" />
+
+          <div class="stages__info">
+            <h2 class="stages__title">Обсуждаем задачу</h2>
+            <p class="stages__text">
+              Перенесем ваше iOS/Android приложение на кросс-платформу и сократим стоимость разработки и
+              поддержки на 40%
+            </p>
+          </div>
+        </div>
+
+        <div class="stages__block">
+          <img class="stages__image" src="./assets/images/stage2.svg" alt="Этап 1" />
+
+          <div class="stages__info">
+            <h2 class="stages__title">Прототипируем</h2>
+            <p class="stages__text">
+              Перенесем ваше iOS/Android приложение на кросс-платформу и сократим стоимость разработки и
+              поддержки на 40%
+            </p>
+          </div>
+        </div>
+
+        <div class="stages__block stages__block--decorated">
+          <img class="stages__image" src="./assets/images/stage3.svg" alt="Этап 1" />
+
+          <div class="stages__info">
+            <h2 class="stages__title">Разрабатываем</h2>
+            <p class="stages__text">
+              Перенесем ваше iOS/Android приложение на кросс-платформу и сократим стоимость разработки и
+              поддержки на 40%
+            </p>
+          </div>
+        </div>
+
+        <div class="stages__block">
+          <img class="stages__image" src="./assets/images/stage4.svg" alt="Этап 1" />
+
+          <div class="stages__info">
+            <h2 class="stages__title">Тестируем</h2>
+            <p class="stages__text">
+              Перенесем ваше iOS/Android приложение на кросс-платформу и сократим стоимость разработки и
+              поддержки на 40%
+            </p>
+          </div>
+        </div>
+
+        <div class="stages__block">
+          <img class="stages__image" src="./assets/images/stage5.svg" alt="Этап 1" />
+
+          <div class="stages__info">
+            <h2 class="stages__title">Публикуем и поддерживаем</h2>
+            <p class="stages__text">
+              Перенесем ваше iOS/Android приложение на кросс-платформу и сократим стоимость разработки и
+              поддержки на 40%
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="price">
+      <div class="price__container">
+        <div class="price__left">
+          <img class="price__image" src="./assets/images/period.svg" alt="картинка" />
+          <div class="price__description">
+            <p class="price__text">от 1 недели</p>
+            <p class="price__text">не ограничено</p>
+          </div>
+        </div>
+        <div class="price__right">
+          <p class="price__type">Кроссплатформенные</p>
+          <p class="price__type">Нативные</p>
+          <p class="price__type price__type--opacity">приложения</p>
+          <p class="price__total">от 299 000 тыс. руб.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="form">
+      <div class="form__container">
+        <h2 class="form__title">Записаться на консультацию</h2>
+        <input class="form__text" type="text" placeholder="Имя" />
+        <input class="form__text" type="text" placeholder="Почта или номер телефона" />
+
+        <label class="form__label">
+          <input class="form__checkbox" type="checkbox" name="agree" />
+          Соглашаюсь с <a class="form__link" href="#">обработкой персональных данных</a>
+        </label>
+        <button class="form__button">Отправить</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__text">© domain.ru, 2025</p>
+    <p class="footer__text">Сделано в студии Название</p>
+    <a class="footer__link" href="#">Политика конфиденциальности</a>
+  </footer>
+</body>
+
+</html>
